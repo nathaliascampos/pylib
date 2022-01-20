@@ -28,4 +28,4 @@ def test_non_ascii_normalized(string_snake):
     new_string = normalize_strings.remove_non_ascii_normalized(string_snake)
 
     # ASSERT
-    assert new_string == 'atencao '
+    assert new_string == 'atencao FAILED'
